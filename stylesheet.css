@@ -9,17 +9,6 @@ body {
     height: 100%;
 }
 
-
-
-.tit-0 {
-    background-color: rgb(236, 62, 62);
-    font-size: 16px;
-    color: rgb(7, 174, 82);
-    text-align: center;
-    margin: 0px;
-    padding: 20px;
-}
-
 .cont-ger {
     background-color: #d3d3d3;
     padding: 20px;
@@ -39,28 +28,30 @@ body {
     padding: 0px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    border: solid 1px rgb(89, 89, 89);
 }
 
 .tit-1,
 .tit-ger-2 {
     background-color: rgb(89, 89, 89);
     color: white;
-     font-size: 16px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     height: 25px;
     border-radius: 10px 10px 0 0;
+    border: solid 1px rgb(89, 89, 89);
 }
 
 .tit-2,
 .tit-3 {
     color: white;
     font-size: 14px;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(139, 139, 139);
     text-align: center;
     display: flex;
     /* Torna o elemento flexível */
@@ -68,9 +59,10 @@ body {
     /* Alinha horizontalmente ao centro */
     align-items: center;
     /* Alinha verticalmente ao centro */
-    padding: 10px;
+    padding: 5px;
     height: 20px;
     border-radius: 10px 10px 0 0;
+    border: solid 1px rgb(89, 89, 89);
 }
 
 .text-1,
@@ -84,7 +76,7 @@ body {
 .text-4 {
     padding: 30px 40px 5px 40px;
     color: #000000;
-   font-size: 14px;
+    font-size: 14px;
 }
 
 .cont-ger2 {
@@ -93,23 +85,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-    width: 93%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
     padding: 10px 80px 0px 80px;
+    border: solid 1px rgb(89, 89, 89);
 }
 
 
 .tit-ger-2 {
     color: white;
-   font-size: 16px;
+    font-size: 14px;
     background-color: rgb(89, 89, 89);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    height: 40px;
-    width: 99%;
+    padding: 5px;
+    height: 25px;
+    width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
@@ -120,18 +113,19 @@ body {
     /* Defina um espaçamento igual entre os containers */
     flex-wrap: wrap;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .cont-2,
 .cont-3 {
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    border: solid 1px rgb(89, 89, 89);
     flex-grow: 1;
     width: 250px;
     /* Garante que ambos ocupem metade da largura com o espaçamento */
-    height: 250px;
+    height: 180px;
     /* Certifique-se de que ambos tenham a mesma altura */
 }
 
@@ -145,7 +139,7 @@ body {
 .campo-select {
     border-radius: 5px;
     padding: 10px;
-    width: 100px;
+    width: 130px;
     font-size: 14px;
     margin-right: 20px;
 }
@@ -163,9 +157,10 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     transition: background-color 0.3s;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
 .botao:hover {
@@ -177,7 +172,7 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    width: 40%;
+    width: 50%;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
     margin: 30px;
     height: 100%;
@@ -187,10 +182,10 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    width: 40%;
+    width: 50%;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 30px;
-    height: 300px;
+    margin: 20px;
+    height: 250px;
 }
 
 .result {
@@ -209,12 +204,12 @@ body {
 
 .parabens {
     font-size: 16px;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .pontos {
-   font-size: 14px;
-    padding-left: 50px;
+    font-size: 14px;
+    padding-left: 20px;
     display: flex;
     gap: 40px;
     margin-bottom: 20px;
@@ -247,11 +242,12 @@ body {
     color: rgb(255, 255, 255);
     padding: 15px 50px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 10px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
+    font-weight: bold;
     transition: background-color 0.3s;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -270,11 +266,12 @@ body {
     color: rgb(255, 255, 255);
     padding: 15px 50px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 20px;
+    font-weight: bold;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-   font-size: 14px;
+    font-size: 14px;
     transition: background-color 0.3s;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
