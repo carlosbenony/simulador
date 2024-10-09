@@ -16,16 +16,12 @@ body {
     height: 92%;
     width: 95%;
     display: flex;
-    /* Adiciona flexbox para melhor controle de layout */
     flex-direction: column;
-    /* Para empilhar elementos verticalmente */
     align-items: center;
-    /* Alinha os itens ao centro horizontalmente */
 }
 
 .cont-1 {
     background-color: #ffffff;
-    padding: 0px;
     border-radius: 10px;
     margin-bottom: 20px;
     width: 100%;
@@ -54,11 +50,8 @@ body {
     background-color: rgb(139, 139, 139);
     text-align: center;
     display: flex;
-    /* Torna o elemento flexível */
     justify-content: center;
-    /* Alinha horizontalmente ao centro */
     align-items: center;
-    /* Alinha verticalmente ao centro */
     padding: 5px;
     height: 20px;
     border-radius: 10px 10px 0 0;
@@ -67,9 +60,10 @@ body {
 
 .text-1,
 .text-2 {
-    padding: 10px 80px 5px 80px;
+    padding: 20px;
     color: #000000;
     font-size: 14px;
+    margin-top: -20px;
 }
 
 .text-3,
@@ -86,14 +80,13 @@ body {
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
-    width: 90%;
-    padding: 10px 80px 0px 80px;
+    width: 100%;
+    padding: 20px;
     border: solid 1px rgb(89, 89, 89);
 }
 
-
 .tit-ger-2 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 14px;
     background-color: rgb(89, 89, 89);
     text-align: center;
@@ -109,8 +102,7 @@ body {
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    /* Defina um espaçamento igual entre os containers */
+    gap: 20px;
     flex-wrap: wrap;
     width: 100%;
     padding: 10px;
@@ -124,9 +116,7 @@ body {
     border: solid 1px rgb(89, 89, 89);
     flex-grow: 1;
     width: 250px;
-    /* Garante que ambos ocupem metade da largura com o espaçamento */
     height: 180px;
-    /* Certifique-se de que ambos tenham a mesma altura */
 }
 
 .campo-nome {
@@ -134,6 +124,7 @@ body {
     padding: 10px;
     width: 400px;
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .campo-select {
@@ -142,13 +133,14 @@ body {
     width: 130px;
     font-size: 14px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .botao {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 20%;
     background-color: rgb(24, 122, 29);
     color: rgb(255, 255, 255);
     padding: 15px 50px;
@@ -165,17 +157,20 @@ body {
 
 .botao:hover {
     background-color: rgb(89, 89, 89);
-    /* Cor ao passar o mouse */
 }
 
 .tela-simulado {
     background-color: #ffffff;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    width: 50%;
+    width: 60%;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 30px;
+    margin: 10px;
     height: 100%;
+}
+
+#simuladoTitle {
+    font-size: 13px;
 }
 
 .tela-resultado {
@@ -184,35 +179,26 @@ body {
     color: rgb(0, 0, 0);
     width: 50%;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    height: 250px;
-}
-
-.result {
-    color: white;
-    font-size: 14px;
-    background-color: rgb(89, 89, 89);
-    text-align: center;
+    margin: 0px;
+    height: 200px;
+    padding: 0;
     display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    height: 25px;
-    width: 98%;
-    border-radius: 10px 10px 0 0;
+    text-align: center;
+    gap: 20px;
 }
 
-.parabens {
-    font-size: 16px;
-    padding-left: 20px;
-}
 
 .pontos {
-    font-size: 14px;
-    padding-left: 20px;
     display: flex;
     gap: 40px;
-    margin-bottom: 20px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .hidden {
@@ -220,9 +206,9 @@ body {
 }
 
 #perguntasContainer {
-    padding: 20px 0px 0px 50px;
+    padding: 10px 0px 0px 20px;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .question {
@@ -234,15 +220,12 @@ body {
 }
 
 .botaof {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
+    width: 55%;
     background-color: rgb(24, 122, 29);
     color: rgb(255, 255, 255);
     padding: 15px 50px;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -254,17 +237,13 @@ body {
 
 .botaof:hover {
     background-color: rgb(89, 89, 89);
-    /* Cor ao passar o mouse */
 }
 
 .botaoi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
+    width: 50%;
     background-color: rgb(24, 122, 29);
     color: rgb(255, 255, 255);
-    padding: 15px 50px;
+    padding: 15px;
     margin-bottom: 30px;
     margin-left: 20px;
     font-weight: bold;
@@ -278,5 +257,92 @@ body {
 
 .botaoi:hover {
     background-color: rgb(89, 89, 89);
-    /* Cor ao passar o mouse */
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        /* Ajuste o padding conforme necessário */
+    }
+
+    .cont-ger,
+    {
+    width: 100%;
+    /* Use a largura total da tela */
+    padding: 10px;
+    /* Ajuste o padding */
+}
+
+.cont-ger2 {
+    width: 100%;
+    /* Use a largura total da tela */
+    padding: 0px;
+    /* Ajuste o padding */
+}
+
+.tit-ger-2 {
+    width: 100%;
+    padding: 0px;
+}
+
+.cont-2,
+.cont-3 {
+    width: 100%;
+    /* Torne as colunas responsivas */
+    height: auto;
+    /* Permita que a altura se ajuste ao conteúdo */
+    margin: 10px;
+    /* Espaçamento entre elementos */
+}
+
+.campo-nome,
+.campo-select,
+.botao {
+    width: 100%;
+    /* Use a largura total */
+    padding: 10px;
+    /* Ajuste o padding para se adequar melhor ao espaço */
+}
+
+.tela-simulado,
+.tela-resultado {
+    width: 100%;
+    /* Diminua a largura para caber melhor na tela */
+    margin: 0;
+    /* Centralize e dê margem */
+
+}
+
+.tit-result {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tit-1,
+.tit-2,
+.tit-3,
+.tit-ger-2 {
+    font-size: 12px;
+    /* Diminua o tamanho da fonte se necessário */
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.parabens,
+.pontos {
+    font-size: 12px;
+    /* Ajuste o tamanho da fonte para melhor legibilidade */
+}
+
+.botao,
+.botaof,
+.botaoi {
+    padding: 10px;
+    /* Reduza o padding para caber melhor na tela */
+    width: 60%;
+}
 }
