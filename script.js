@@ -4,7 +4,7 @@ const perguntas = [
         question: "1. O que é uma plataforma de perfuração?",
         options: [
             "Um tipo de embarcação para transporte de petróleo",
-            "Um equipamento usado para perfurar o solo em busca de petróleo",
+            "Um equipamento usado para perfurar o solo em <br>busca de petróleo",
             "Uma torre de observação em alto-mar",
             "Um tipo de duto de transporte de gás",
             "Um reservatório para armazenamento de petróleo"
@@ -12,7 +12,7 @@ const perguntas = [
         correct: 1
     },
     {
-        question: "2. Qual é a função principal do fluido de perfuração?",
+        question: "2. Qual é a função principal do fluido <br>de perfuração?",
         options: [
             "Lubrificar a broca",
             "Aumentar a velocidade de perfuração",
@@ -25,7 +25,7 @@ const perguntas = [
     {
         question: "3. O que é uma broca de perfuração?",
         options: [
-            "Uma ferramenta usada para medir a profundidade do poço",
+            "Uma ferramenta usada para medir a profundidade <br>do poço",
             "Uma ferramenta rotativa usada para cortar rochas",
             "Uma válvula de segurança",
             "Uma plataforma móvel",
@@ -49,15 +49,15 @@ const perguntas = [
         correct: 0
     },
     {
-        question: "6. O que significa o termo 'kick' na perfuração de poços?", // Pergunta aberta
+        question: "6. O que significa o termo 'kick' na <br>perfuração de poços?", // Pergunta aberta
         correctAnswer: "A entrada indesejada de fluidos no poço" // Resposta correta esperada
     },
     {
-        question: "7. Descreva brevemente o que é uma coluna de perfuração.", // Pergunta aberta
+        question: "7. Descreva brevemente o que é uma coluna <br>de perfuração.", // Pergunta aberta
         correctAnswer: "Uma sequência de tubos conectados que conduzem a broca" // Resposta correta esperada
     },
     {
-        question: "8. Qual dos seguintes é um método de perfuração comum?",
+        question: "8. Qual dos seguintes é um método de perfuração <br>comum?",
         options: [
             "Perfuração rotativa",
             "Perfuração por explosão",
@@ -79,7 +79,7 @@ const perguntas = [
         correct: 1
     },
     {
-        question: "10. O que significa o termo 'kick' na perfuração de poços?",
+        question: "10. O que significa o termo 'kick' <br>na perfuração de poços?",
         options: [
             "Uma interrupção na rotação da broca",
             "A entrada indesejada de fluidos no poço",
@@ -112,11 +112,13 @@ function iniciarExame() {
     // Exibe a tela do simulado
     document.getElementById("telaSimulado").classList.remove("hidden");
 
+
     // Esconde a tela inicial
     document.querySelector(".cont-1").classList.add("hidden");
     document.querySelector(".cont-ger2").classList.add("hidden");
     document.querySelector(".tit-ger-2").classList.add("hidden");
     document.querySelector(".name-input").classList.add("hidden");
+
 
     // Iniciar o cronômetro
     iniciarCronometro();
@@ -137,7 +139,7 @@ function iniciarCronometro() {
         const segundosFormatados = segundos < 10 ? `0${segundos}` : segundos;
 
         // Atualiza o título com o cronômetro
-        document.getElementById("simuladoTitle").textContent = `Boa sorte, ${nomeUsuario}! Você tem ${minutosFormatados}:${segundosFormatados} para finalizar seu teste.`;
+        document.getElementById("simuladoTitle").textContent = `${nomeUsuario}! Você tem ${minutosFormatados}:${segundosFormatados} para finalizar seu teste.`;
 
         // Reduz o tempo restante
         tempoRestante--;
@@ -253,6 +255,7 @@ function voltarTelaInicial() {
     document.querySelector(".cont-ger2").classList.remove("hidden");
     document.querySelector(".tit-ger-2").classList.remove("hidden");
     document.querySelector(".name-input").classList.remove("hidden");
+
 
     // Limpa o título do simulado
     document.getElementById("simuladoTitle").textContent = '';
