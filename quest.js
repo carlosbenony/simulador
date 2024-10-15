@@ -31,7 +31,7 @@ const perguntas = [
         correctAnswer: "Um poço usado para monitorar a qualidade e a quantidade de água ou outros fluidos."
     },
     {
-        question: "Quais são os principais componentes de uma torre de perfuração?",
+        question: "Quais são os principais componentes de <br>uma torre de perfuração?",
         options: [
             "Broca, tubo de revestimento e fluido",
             "Cimentação, cascalho e água",
@@ -42,7 +42,7 @@ const perguntas = [
         correct: 3 // Resposta correta na opção 3
     },
     {
-        question: "Explique o que é cimentação em operações de perfuração.", // Pergunta aberta
+        question: "Explique o que é cimentação em operações <br>de perfuração.", // Pergunta aberta
         correctAnswer: "É o processo de revestir o poço com cimento para fixar o tubo de revestimento e evitar colapsos."
     },
     {
@@ -57,7 +57,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Quais são os riscos associados à perfuração de poços?", // Pergunta aberta
+        question: "Quais são os riscos associados à perfuração <br>de poços?", // Pergunta aberta
         correctAnswer: "Os riscos incluem explosões, vazamentos, colapsos de poço e contaminação de águas subterrâneas."
     },
     {
@@ -72,7 +72,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Descreva o impacto ambiental das operações de perfuração.", // Pergunta aberta
+        question: "Descreva o impacto ambiental das operações <br>de perfuração.", // Pergunta aberta
         correctAnswer: "As operações podem causar poluição, destruição de habitats, e contaminação de solo e água."
     },
     {
@@ -113,7 +113,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Explique o que é um sistema de controle de fluxo.", // Pergunta aberta
+        question: "Explique o que é um sistema de controle <br>de fluxo.", // Pergunta aberta
         correctAnswer: "Um sistema que regula o fluxo de fluido de perfuração."
     },
     {
@@ -199,7 +199,7 @@ const perguntas = [
         correctAnswer: "Levar o petróleo do poço para a superfície."
     },
     {
-        question: "Qual é a função do sistema de segurança em uma perfuração?",
+        question: "Qual é a função do sistema de segurança em <br>uma perfuração?",
         options: [
             "Facilitar a perfuração",
             "Controlar a pressão do poço",
@@ -255,7 +255,7 @@ const perguntas = [
         correct: 3 // Resposta correta na opção 3
     },
     {
-        question: "Explique a diferença entre perfuração vertical e horizontal.", // Pergunta aberta
+        question: "Explique a diferença entre perfuração vertical <br>e horizontal.", // Pergunta aberta
         correctAnswer: "A perfuração vertical vai diretamente para baixo, enquanto a horizontal avança lateralmente."
     },
     {
@@ -270,7 +270,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Qual a importância do registro de dados durante a perfuração?", // Pergunta aberta
+        question: "Qual a importância do registro de dados durante <br>a perfuração?", // Pergunta aberta
         correctAnswer: "Os dados ajudam a monitorar o progresso e a tomar decisões informadas."
     },
     {
@@ -296,7 +296,7 @@ const perguntas = [
         correct: 3 // Resposta correta na opção 3
     },
     {
-        question: "Quais são as técnicas utilizadas na perfuração de poços de gás?", // Pergunta aberta
+        question: "Quais são as técnicas utilizadas na perfuração <br>de poços de gás?", // Pergunta aberta
         correctAnswer: "As técnicas incluem perfuração rotativa e uso de fluidos especiais."
     },
     {
@@ -322,7 +322,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Explique o que é um sistema de ventilação em operações de perfuração.", // Pergunta aberta
+        question: "Explique o que é um sistema de ventilação em <br>operações de perfuração.", // Pergunta aberta
         correctAnswer: "É um sistema que remove gases e vapores do local de perfuração."
     },
     {
@@ -337,7 +337,7 @@ const perguntas = [
         correct: 0 // Resposta correta na opção 0
     },
     {
-        question: "Qual é o impacto das operações de perfuração na fauna local?", // Pergunta aberta
+        question: "Qual é o impacto das operações de perfuração <br>na fauna local?", // Pergunta aberta
         correctAnswer: "As operações podem causar destruição de habitats e impactos negativos na fauna."
     },
     {
