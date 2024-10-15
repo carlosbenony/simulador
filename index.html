@@ -12,7 +12,6 @@
     <div class="cont-ger">
         <!-- Tela Inicial -->
         <div class="cont-1 name-input">
-
             <div class="tit-1">
                 <h2>Instruções</h2>
             </div>
@@ -26,25 +25,9 @@
                         capacidades)</li>
                     <li>Calculadora portátil (não programável e fornecida pelo provedor de treinamento)</li>
                 </ul>
-                <p>Outros materiais, como suas anotações, não podem ser usados.<br>
-                    Celulares não podem ser usados durante o teste. Seu telefone deve ficar desligado durante o
-                    exame.<br>
-                    O banco de dados de testes permitirá que você altere respostas, pule perguntas e volte para
-                    perguntas puladas. <br>
-                    Todas as perguntas não respondidas no término do período de teste serão marcadas como
-                    incorretas.<br>
-                    Durante o período de teste, você pode fazer perguntas se precisar de esclarecimento de uma
-                    pergunta.<br>
-                    Por favor, indique ao Proctor que você deseja fazer uma pergunta. <br>
-                    O Proctor ligará para o instrutor, que responderá sua pergunta. <br>
-                    O Proctor estará presente enquanto o instrutor responde sua pergunta.<br>
-                    Se você precisar sair da sala por qualquer motivo, o tempo de teste continuará a diminuir.<br>
-                    O teste não será pausado.<br>
-                    Quando você tiver concluído seu exame e enviado suas respostas, reúna-se com seu instrutor para
-                    obter seu relatório de pontuação.
-                </p>
+                <p>Outros materiais, como suas anotações, não podem ser usados. Celulares devem estar desligados durante
+                    o exame. Quando tiver concluído, obtenha seu relatório de pontuação com o instrutor.</p>
             </div>
-
         </div>
 
         <div class="tit-ger-2">
@@ -63,6 +46,7 @@
                         <p><strong>Duração do teste:</strong> 2 horas</p>
                     </div>
                 </div>
+
                 <div class="cont-3">
                     <div class="tit-3">
                         <h2>Preferências de teste</h2>
@@ -81,10 +65,7 @@
                         <label for="userName"><strong>Insira seu nome: </strong></label>
                         <input class="campo-nome" type="text" id="userName" placeholder="Digite seu nome aqui...">
                     </div>
-
-
                 </div>
-
             </div>
             <button class="botao" onclick="iniciarExame()">Iniciar simulado</button>
         </div>
@@ -97,13 +78,11 @@
             </div>
             <div id="perguntasContainer"></div> <!-- Contêiner para as perguntas -->
             <button class="botaof" onclick="finalizarSimulado()">Finalizar Simulado</button>
-            <!-- Botão para finalizar o simulado -->
         </div>
 
         <!-- Tela de Resultado -->
-
         <div id="telaResultado" class="tela-resultado hidden">
-            <p><strong> <span id="finalNome"></span>!</p></strong>
+            <p><strong><span id="finalNome"></span>!</strong></p>
             <div class="pontos">
                 <p>Você acertou: <span id="acertos"></span></p>
                 <p>Você errou: <span id="erros"></span></p>
@@ -113,7 +92,8 @@
         </div>
     </div>
 
-    <script src="script.js"></script> <!-- Link para o JavaScript -->
+    <script src="quest.js"></script> <!-- Link para o arquivo de perguntas -->
+    <script src="script.js"></script> <!-- Link para o JavaScript principal -->
 </body>
 
 </html>
